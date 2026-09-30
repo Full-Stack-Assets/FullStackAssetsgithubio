@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Full Stack Assets — Digital Products & Services</title>
+<meta name="description" content="Full Stack Assets: digital products, books, and AI operations services.">
+<style>
+  :root{
+    --bg:#0f1722; --bg2:#16202e; --card:#1b2839; --line:#2a3a52;
+    --text:#e8eef6; --muted:#9fb0c7; --amber:#f5a524; --amber-d:#c77f0a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
+  a{color:var(--amber);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px;margin:0 auto;padding:0 24px}
+  header{border-bottom:1px solid var(--line);padding:20px 0}
+  header .wrap{display:flex;align-items:center;justify-content:space-between}
+  .brand{font-weight:800;letter-spacing:2px;font-size:15px}
+  .brand span{color:var(--amber)}
+  nav a{margin-left:22px;font-size:14px;color:var(--muted)}
+  nav a:hover{color:var(--amber)}
+  .hero{padding:72px 0 56px;text-align:center}
+  .hero h1{font-size:clamp(30px,5vw,46px);line-height:1.15;letter-spacing:-0.5px}
+  .hero h1 em{color:var(--amber);font-style:normal}
+  .hero p{color:var(--muted);max-width:620px;margin:18px auto 0;font-size:17px}
+  .cta-row{margin-top:28px}
+  .btn{display:inline-block;background:var(--amber);color:#14100a;font-weight:700;padding:12px 28px;border-radius:10px;font-size:15px}
+  .btn:hover{background:var(--amber-d);text-decoration:none}
+  .btn.ghost{background:transparent;color:var(--amber);border:1px solid var(--amber);margin-left:12px}
+  section{padding:40px 0}
+  h2{font-size:22px;margin-bottom:6px}
+  .sub{color:var(--muted);font-size:15px;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;transition:transform .15s ease,border-color .15s ease}
+  .card:hover{transform:translateY(-3px);border-color:var(--amber)}
+  .card .kicker{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--amber);font-weight:700}
+  .card h3{font-size:19px;margin:8px 0 6px}
+  .card p{color:var(--muted);font-size:14.5px;margin-bottom:14px}
+  .card .price{font-weight:700;color:var(--text);font-size:15px}
+  .card .go{font-size:14px;font-weight:600}
+  .services{background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .services ul{list-style:none;margin-top:16px}
+  .services li{padding:10px 0;border-bottom:1px solid var(--line);color:var(--muted);font-size:15px}
+  .services li:last-child{border-bottom:none}
+  .services li strong{color:var(--text)}
+  footer{padding:32px 0 48px;color:var(--muted);font-size:13px;text-align:center}
+  @media(max-width:600px){nav{display:none}.hero{padding:52px 0 40px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">FULL STACK <span>ASSETS</span></div>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#services">Services</a>
+      <a href="#books">Books</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Digital products &amp; services,<br><em>built to ship.</em></h1>
+    <p>Full Stack Assets creates practical digital products for founders, publishers, and creators — plus hands-on AI operations services for businesses.</p>
+    <div class="cta-row">
+      <a class="btn" href="#products">Browse products</a>
+      <a class="btn ghost" href="#services">Services</a>
+    </div>
+  </div>
+
+  <section id="products">
+    <h2>Products</h2>
+    <p class="sub">Instant delivery. No inventory, no waiting.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="kicker">Bookstore</div>
+        <h3>Beyond Mythos Press</h3>
+        <p>Our own bookstore for independent publishers: <span class="price">The Autonomous Publisher&rsquo;s Handbook</span> <span class="price">$29</span> (PDF + EPUB, DRM-free), plus creator kits.</p>
+        <a class="go" href="https://beyondmythos.onrender.com">Visit the bookstore &rarr;</a>
+      </div>
+      <div class="card">
+        <div class="kicker">Digital catalog</div>
+        <h3>Gumroad Catalog</h3>
+        <p>Thirty digital products at <span class="price">$9</span> each — including our newest release, <span class="price">20 Agent Roles for Solo Founders</span> <span class="price">$29</span>.</p>
+        <a class="go" href="https://fullstacker05.gumroad.com">Browse the catalog &rarr;</a>
+      </div>
+      <div class="card">
+        <div class="kicker">New release</div>
+        <h3>20 Agent Roles for Solo Founders</h3>
+        <p>A ready-to-use pack of AI agent roles for solo founders. <span class="price">$29</span> on Gumroad.</p>
+        <a class="go" href="https://fullstacker05.gumroad.com/l/efmaeu">Get the pack &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="books">
+    <h2>Books</h2>
+    <p class="sub">Fiction from our publishing arm.</p>
+    <div class="grid">
+      <div class="card">
+        <div class="kicker">Sci-fi thriller</div>
+        <h3>The Dark Census</h3>
+        <p>A sci-fi thriller novel, available on Amazon Kindle. <span class="price">$4.99</span></p>
+        <a class="go" href="https://www.amazon.com/dp/B0HKR4ZHQV">View on Amazon &rarr;</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="services" id="services">
+  <div class="wrap">
+    <section>
+      <h2>Services — ProductWeld</h2>
+      <p class="sub">Hands-on help for businesses adopting AI.</p>
+      <ul>
+        <li><strong>AI operations automation</strong> — Claude/MCP-based workflows wired into your existing tools.</li>
+        <li><strong>Custom builds</strong> — internal tools, integrations, and prototypes scoped to your stack.</li>
+        <li><strong>Advisory pilots</strong> — small paid pilots first, then long-term collaboration.</li>
+      </ul>
+      <p style="margin-top:18px"><a class="btn" href="https://productweld.tech">ProductWeld &rarr;</a></p>
+    </section>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    &copy; 2026 Full Stack Assets. All products digital &amp; DRM-free where noted.
+  </div>
+</footer>
+</body>
+</html>
